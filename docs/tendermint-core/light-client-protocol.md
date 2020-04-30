@@ -9,7 +9,7 @@ applications. Tendermint provides unique speed and security properties for
 light client applications.
 
 See our [lite
-package](https://pkg.go.dev/github.com/tendermint/tendermint/lite2?tab=doc).
+package](https://pkg.go.dev/github.com/kava-labs/tendermint/lite2?tab=doc).
 
 ## Overview
 
@@ -33,7 +33,7 @@ proofs](https://github.com/tendermint/spec/blob/953523c3cb99fdb8c8f7a2d21e3a9909
 
 ## Where to obtain trusted height & hash?
 
-https://pkg.go.dev/github.com/tendermint/tendermint/lite2?tab=doc#TrustOptions
+https://pkg.go.dev/github.com/kava-labs/tendermint/lite2?tab=doc#TrustOptions
 
 One way to obtain semi-trusted hash & height is to query multiple full nodes
 and compare their hashes:

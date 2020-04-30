@@ -9,8 +9,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/tendermint/tendermint/p2p"
-	"github.com/tendermint/tendermint/types"
+	"github.com/kava-labs/tendermint/p2p"
+	"github.com/kava-labs/tendermint/types"
 )
 
 type scTestParams struct {

@@ -13,4 +13,4 @@ exactly is stored in these blocks?
 
 The [specification](https://github.com/tendermint/spec/blob/953523c3cb99fdb8c8f7a2d21e3a99094279e9de/spec/blockchain/blockchain.md) contains a detailed description of each component - that's the best place to get started.
 
-To dig deeper, check out the [types package documentation](https://godoc.org/github.com/tendermint/tendermint/types).
+To dig deeper, check out the [types package documentation](https://godoc.org/github.com/kava-labs/tendermint/types).

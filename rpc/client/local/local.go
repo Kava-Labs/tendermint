@@ -6,16 +6,16 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/tendermint/tendermint/libs/bytes"
-	"github.com/tendermint/tendermint/libs/log"
-	tmpubsub "github.com/tendermint/tendermint/libs/pubsub"
-	tmquery "github.com/tendermint/tendermint/libs/pubsub/query"
-	nm "github.com/tendermint/tendermint/node"
-	rpcclient "github.com/tendermint/tendermint/rpc/client"
-	"github.com/tendermint/tendermint/rpc/core"
-	ctypes "github.com/tendermint/tendermint/rpc/core/types"
-	rpctypes "github.com/tendermint/tendermint/rpc/lib/types"
-	"github.com/tendermint/tendermint/types"
+	"github.com/kava-labs/tendermint/libs/bytes"
+	"github.com/kava-labs/tendermint/libs/log"
+	tmpubsub "github.com/kava-labs/tendermint/libs/pubsub"
+	tmquery "github.com/kava-labs/tendermint/libs/pubsub/query"
+	nm "github.com/kava-labs/tendermint/node"
+	rpcclient "github.com/kava-labs/tendermint/rpc/client"
+	"github.com/kava-labs/tendermint/rpc/core"
+	ctypes "github.com/kava-labs/tendermint/rpc/core/types"
+	rpctypes "github.com/kava-labs/tendermint/rpc/lib/types"
+	"github.com/kava-labs/tendermint/types"
 )
 
 /*

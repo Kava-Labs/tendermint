@@ -3,8 +3,8 @@ package mock
 import (
 	"errors"
 
-	"github.com/tendermint/tendermint/lite2/provider"
-	"github.com/tendermint/tendermint/types"
+	"github.com/kava-labs/tendermint/lite2/provider"
+	"github.com/kava-labs/tendermint/types"
 )
 
 type deadMock struct {

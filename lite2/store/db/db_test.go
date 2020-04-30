@@ -9,7 +9,7 @@ import (
 
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/tendermint/tendermint/types"
+	"github.com/kava-labs/tendermint/types"
 )
 
 func TestLast_FirstSignedHeaderHeight(t *testing.T) {

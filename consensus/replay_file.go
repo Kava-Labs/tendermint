@@ -12,14 +12,14 @@ import (
 	"github.com/pkg/errors"
 	dbm "github.com/tendermint/tm-db"
 
-	cfg "github.com/tendermint/tendermint/config"
-	"github.com/tendermint/tendermint/libs/log"
-	tmos "github.com/tendermint/tendermint/libs/os"
-	"github.com/tendermint/tendermint/mock"
-	"github.com/tendermint/tendermint/proxy"
-	sm "github.com/tendermint/tendermint/state"
-	"github.com/tendermint/tendermint/store"
-	"github.com/tendermint/tendermint/types"
+	cfg "github.com/kava-labs/tendermint/config"
+	"github.com/kava-labs/tendermint/libs/log"
+	tmos "github.com/kava-labs/tendermint/libs/os"
+	"github.com/kava-labs/tendermint/mock"
+	"github.com/kava-labs/tendermint/proxy"
+	sm "github.com/kava-labs/tendermint/state"
+	"github.com/kava-labs/tendermint/store"
+	"github.com/kava-labs/tendermint/types"
 )
 
 const (

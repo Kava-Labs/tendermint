@@ -7,8 +7,8 @@ import (
 	"strings"
 	"sync"
 
-	tmmath "github.com/tendermint/tendermint/libs/math"
-	tmrand "github.com/tendermint/tendermint/libs/rand"
+	tmmath "github.com/kava-labs/tendermint/libs/math"
+	tmrand "github.com/kava-labs/tendermint/libs/rand"
 )
 
 // BitArray is a thread-safe implementation of a bit array.

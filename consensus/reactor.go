@@ -10,14 +10,14 @@ import (
 
 	amino "github.com/tendermint/go-amino"
 
-	cstypes "github.com/tendermint/tendermint/consensus/types"
-	"github.com/tendermint/tendermint/libs/bits"
-	tmevents "github.com/tendermint/tendermint/libs/events"
-	"github.com/tendermint/tendermint/libs/log"
-	"github.com/tendermint/tendermint/p2p"
-	sm "github.com/tendermint/tendermint/state"
-	"github.com/tendermint/tendermint/types"
-	tmtime "github.com/tendermint/tendermint/types/time"
+	cstypes "github.com/kava-labs/tendermint/consensus/types"
+	"github.com/kava-labs/tendermint/libs/bits"
+	tmevents "github.com/kava-labs/tendermint/libs/events"
+	"github.com/kava-labs/tendermint/libs/log"
+	"github.com/kava-labs/tendermint/p2p"
+	sm "github.com/kava-labs/tendermint/state"
+	"github.com/kava-labs/tendermint/types"
+	tmtime "github.com/kava-labs/tendermint/types/time"
 )
 
 const (

@@ -14,11 +14,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/tendermint/tendermint/crypto"
-	tmmath "github.com/tendermint/tendermint/libs/math"
-	tmrand "github.com/tendermint/tendermint/libs/rand"
-	"github.com/tendermint/tendermint/libs/service"
-	"github.com/tendermint/tendermint/p2p"
+	"github.com/kava-labs/tendermint/crypto"
+	tmmath "github.com/kava-labs/tendermint/libs/math"
+	tmrand "github.com/kava-labs/tendermint/libs/rand"
+	"github.com/kava-labs/tendermint/libs/service"
+	"github.com/kava-labs/tendermint/p2p"
 )
 
 const (

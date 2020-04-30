@@ -1,4 +1,4 @@
-module github.com/tendermint/tendermint
+module github.com/kava-labs/tendermint
 
 go 1.13
 

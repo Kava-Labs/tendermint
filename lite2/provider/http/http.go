@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/tendermint/tendermint/lite2/provider"
-	rpcclient "github.com/tendermint/tendermint/rpc/client"
-	rpchttp "github.com/tendermint/tendermint/rpc/client/http"
-	"github.com/tendermint/tendermint/types"
+	"github.com/kava-labs/tendermint/lite2/provider"
+	rpcclient "github.com/kava-labs/tendermint/rpc/client"
+	rpchttp "github.com/kava-labs/tendermint/rpc/client/http"
+	"github.com/kava-labs/tendermint/types"
 )
 
 // SignStatusClient combines a SignClient and StatusClient.

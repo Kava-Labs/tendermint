@@ -6,7 +6,7 @@ order: 3
 
 ## From Binary
 
-To download pre-built binaries, see the [releases page](https://github.com/tendermint/tendermint/releases).
+To download pre-built binaries, see the [releases page](https://github.com/kava-labs/tendermint/releases).
 
 ## From Source
 
@@ -24,7 +24,7 @@ echo export GO111MODULE=on >> ~/.bash_profile
 ```
 mkdir -p $GOPATH/src/github.com/tendermint
 cd $GOPATH/src/github.com/tendermint
-git clone https://github.com/tendermint/tendermint.git
+git clone https://github.com/kava-labs/tendermint.git
 cd tendermint
 ```
 
@@ -74,14 +74,14 @@ tendermint node --proxy_app=kvstore
 If you already have Tendermint installed, and you make updates, simply
 
 ```
-cd $GOPATH/src/github.com/tendermint/tendermint
+cd $GOPATH/src/github.com/kava-labs/tendermint
 make install
 ```
 
 To upgrade, run
 
 ```
-cd $GOPATH/src/github.com/tendermint/tendermint
+cd $GOPATH/src/github.com/kava-labs/tendermint
 git pull origin master
 make install
 ```

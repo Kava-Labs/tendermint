@@ -10,8 +10,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/tendermint/tendermint/crypto/merkle"
-	tmmath "github.com/tendermint/tendermint/libs/math"
+	"github.com/kava-labs/tendermint/crypto/merkle"
+	tmmath "github.com/kava-labs/tendermint/libs/math"
 )
 
 const (

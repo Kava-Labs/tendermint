@@ -2,9 +2,9 @@ PACKAGES=$(shell go list ./...)
 OUTPUT?=build/tendermint
 
 BUILD_TAGS?='tendermint'
-LD_FLAGS = -X github.com/tendermint/tendermint/version.GitCommit=`git rev-parse --short=8 HEAD` -s -w
+LD_FLAGS = -X github.com/kava-labs/tendermint/version.GitCommit=`git rev-parse --short=8 HEAD` -s -w
 BUILD_FLAGS = -mod=readonly -ldflags "$(LD_FLAGS)"
-HTTPS_GIT := https://github.com/tendermint/tendermint.git
+HTTPS_GIT := https://github.com/kava-labs/tendermint.git
 DOCKER_BUF := docker run -v $(shell pwd):/workspace --workdir /workspace bufbuild/buf
 
 all: check build test install
@@ -106,7 +106,7 @@ go.sum: go.mod
 draw_deps:
 	@# requires brew install graphviz or apt-get install graphviz
 	go get github.com/RobotsAndPencils/goviz
-	@goviz -i github.com/tendermint/tendermint/cmd/tendermint -d 3 | dot -Tpng -o dependency-graph.png
+	@goviz -i github.com/kava-labs/tendermint/cmd/tendermint -d 3 | dot -Tpng -o dependency-graph.png
 .PHONY: draw_deps
 
 get_deps_bin_size:
@@ -116,7 +116,7 @@ get_deps_bin_size:
 	@echo "Results can be found here: $(CURDIR)/deps_bin_size.log"
 .PHONY: get_deps_bin_size
 
-###############################################################################
+###########github.com/kava-labs/tendermint####################################
 ###                                  Libs                                   ###
 ###############################################################################
 
@@ -142,7 +142,7 @@ clean_certs:
 
 format:
 	find . -name '*.go' -type f -not -path "*.git*" -not -name '*.pb.go' -not -name '*pb_test.go' | xargs gofmt -w -s
-	find . -name '*.go' -type f -not -path "*.git*"  -not -name '*.pb.go' -not -name '*pb_test.go' | xargs goimports -w -local github.com/tendermint/tendermint
+	find . -name '*.go' -type f -not -path "*.git*"  -not -name '*.pb.go' -not -name '*pb_test.go' | xargs goimports -w -local github.com/kava-labs/tendermint
 .PHONY: format
 
 lint:
@@ -152,7 +152,7 @@ lint:
 
 DESTINATION = ./index.html.md
 
-###############################################################################
+###############################################################################github.com/kava-labs/tendermint
 ###                           Documentation                                 ###
 ###############################################################################
 

@@ -19,35 +19,35 @@ import (
 	amino "github.com/tendermint/go-amino"
 	dbm "github.com/tendermint/tm-db"
 
-	abci "github.com/tendermint/tendermint/abci/types"
-	bcv0 "github.com/tendermint/tendermint/blockchain/v0"
-	bcv1 "github.com/tendermint/tendermint/blockchain/v1"
-	bcv2 "github.com/tendermint/tendermint/blockchain/v2"
-	cfg "github.com/tendermint/tendermint/config"
-	"github.com/tendermint/tendermint/consensus"
-	cs "github.com/tendermint/tendermint/consensus"
-	"github.com/tendermint/tendermint/crypto"
-	"github.com/tendermint/tendermint/evidence"
-	"github.com/tendermint/tendermint/libs/log"
-	tmpubsub "github.com/tendermint/tendermint/libs/pubsub"
-	"github.com/tendermint/tendermint/libs/service"
-	mempl "github.com/tendermint/tendermint/mempool"
-	"github.com/tendermint/tendermint/p2p"
-	"github.com/tendermint/tendermint/p2p/pex"
-	"github.com/tendermint/tendermint/privval"
-	"github.com/tendermint/tendermint/proxy"
-	rpccore "github.com/tendermint/tendermint/rpc/core"
-	ctypes "github.com/tendermint/tendermint/rpc/core/types"
-	grpccore "github.com/tendermint/tendermint/rpc/grpc"
-	rpcserver "github.com/tendermint/tendermint/rpc/lib/server"
-	sm "github.com/tendermint/tendermint/state"
-	"github.com/tendermint/tendermint/state/txindex"
-	"github.com/tendermint/tendermint/state/txindex/kv"
-	"github.com/tendermint/tendermint/state/txindex/null"
-	"github.com/tendermint/tendermint/store"
-	"github.com/tendermint/tendermint/types"
-	tmtime "github.com/tendermint/tendermint/types/time"
-	"github.com/tendermint/tendermint/version"
+	abci "github.com/kava-labs/tendermint/abci/types"
+	bcv0 "github.com/kava-labs/tendermint/blockchain/v0"
+	bcv1 "github.com/kava-labs/tendermint/blockchain/v1"
+	bcv2 "github.com/kava-labs/tendermint/blockchain/v2"
+	cfg "github.com/kava-labs/tendermint/config"
+	"github.com/kava-labs/tendermint/consensus"
+	cs "github.com/kava-labs/tendermint/consensus"
+	"github.com/kava-labs/tendermint/crypto"
+	"github.com/kava-labs/tendermint/evidence"
+	"github.com/kava-labs/tendermint/libs/log"
+	tmpubsub "github.com/kava-labs/tendermint/libs/pubsub"
+	"github.com/kava-labs/tendermint/libs/service"
+	mempl "github.com/kava-labs/tendermint/mempool"
+	"github.com/kava-labs/tendermint/p2p"
+	"github.com/kava-labs/tendermint/p2p/pex"
+	"github.com/kava-labs/tendermint/privval"
+	"github.com/kava-labs/tendermint/proxy"
+	rpccore "github.com/kava-labs/tendermint/rpc/core"
+	ctypes "github.com/kava-labs/tendermint/rpc/core/types"
+	grpccore "github.com/kava-labs/tendermint/rpc/grpc"
+	rpcserver "github.com/kava-labs/tendermint/rpc/lib/server"
+	sm "github.com/kava-labs/tendermint/state"
+	"github.com/kava-labs/tendermint/state/txindex"
+	"github.com/kava-labs/tendermint/state/txindex/kv"
+	"github.com/kava-labs/tendermint/state/txindex/null"
+	"github.com/kava-labs/tendermint/store"
+	"github.com/kava-labs/tendermint/types"
+	tmtime "github.com/kava-labs/tendermint/types/time"
+	"github.com/kava-labs/tendermint/version"
 )
 
 //------------------------------------------------------------------------------
@@ -549,7 +549,7 @@ func createPEXReactorAndAddToSwitch(addrBook pex.AddrBook, config *cfg.Config,
 			// blocks assuming 10s blocks ~ 28 hours.
 			// TODO (melekes): make it dynamic based on the actual block latencies
 			// from the live network.
-			// https://github.com/tendermint/tendermint/issues/3523
+			// https://github.com/kava-labs/tendermint/issues/3523
 			SeedDisconnectWaitPeriod:     28 * time.Hour,
 			PersistentPeersMaxDialPeriod: config.P2P.PersistentPeersMaxDialPeriod,
 		})
@@ -894,7 +894,7 @@ func (n *Node) startRPC() ([]net.Listener, error) {
 	config.MaxOpenConnections = n.config.RPC.MaxOpenConnections
 	// If necessary adjust global WriteTimeout to ensure it's greater than
 	// TimeoutBroadcastTxCommit.
-	// See https://github.com/tendermint/tendermint/issues/3435
+	// See https://github.com/kava-labs/tendermint/issues/3435
 	if config.WriteTimeout <= n.config.RPC.TimeoutBroadcastTxCommit {
 		config.WriteTimeout = n.config.RPC.TimeoutBroadcastTxCommit + 1*time.Second
 	}
@@ -965,7 +965,7 @@ func (n *Node) startRPC() ([]net.Listener, error) {
 		config.MaxOpenConnections = n.config.RPC.GRPCMaxOpenConnections
 		// If necessary adjust global WriteTimeout to ensure it's greater than
 		// TimeoutBroadcastTxCommit.
-		// See https://github.com/tendermint/tendermint/issues/3435
+		// See https://github.com/kava-labs/tendermint/issues/3435
 		if config.WriteTimeout <= n.config.RPC.TimeoutBroadcastTxCommit {
 			config.WriteTimeout = n.config.RPC.TimeoutBroadcastTxCommit + 1*time.Second
 		}

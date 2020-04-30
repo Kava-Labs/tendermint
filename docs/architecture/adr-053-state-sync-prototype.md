@@ -1,6 +1,6 @@
 # ADR 053: State Sync Prototype
 
-This ADR outlines the plan for an initial state sync prototype, and is subject to change as we gain feedback and experience. It builds on discussions and findings in [ADR-042](./adr-042-state-sync.md), see that for background information.
+This ADR outlines the plan for an igithub.com/kava-labs/tendermint is subject to change as we gain feedback and experience. It builds on discussions and findings in [ADR-042](./adr-042-state-sync.md), see that for background information.
 
 ## Changelog
 
@@ -269,7 +269,7 @@ $ ./tools/stop.sh
 
 ### Core Tasks
 
-* **Tendermint:** light client P2P transport [#4456](https://github.com/tendermint/tendermint/issues/4456)
+* **Tendermint:** light client P2P transport [#4456](https://github.com/kava-labs/tendermint/issues/4456)
 
 * **IAVL:** export/import API [#210](https://github.com/tendermint/iavl/issues/210)
 
@@ -277,7 +277,7 @@ $ ./tools/stop.sh
 
 * **Tendermint:** support starting with a truncated block history
 
-* **Tendermint:** state sync reactor and ABCI interface [#828](https://github.com/tendermint/tendermint/issues/828)
+* **Tendermint:** state sync reactor and ABCI interface [#828](https://github.com/kava-labs/tendermint/issues/828)
 
 * **Cosmos SDK:** snapshot ABCI implementation [#5690](https://github.com/cosmos/cosmos-sdk/issues/5690)
 
@@ -287,23 +287,23 @@ $ ./tools/stop.sh
 
     > Let's do a time-boxed prototype (a few days) and see how much work it will be.
 
-  * Notify P2P peers about channel changes [#4394](https://github.com/tendermint/tendermint/issues/4394)
+  * Notify P2P peers about channel changes [#4394](https://github.com/kava-labs/tendermint/issues/4394)
 
-  * Check peers have certain channels [#1148](https://github.com/tendermint/tendermint/issues/1148)
+  * Check peers have certain channels [#1148](https://github.com/kava-labs/tendermint/issues/1148)
 
-* **Tendermint:** prune blockchain history [#3652](https://github.com/tendermint/tendermint/issues/3652)
+* **Tendermint:** prune blockchain history [#3652](https://github.com/kava-labs/tendermint/issues/3652)
 
-* **Tendermint:** allow genesis to start from non-zero height [#2543](https://github.com/tendermint/tendermint/issues/2543)
+* **Tendermint:** allow genesis to start from non-zero height [#2543](https://github.com/kava-labs/tendermint/issues/2543)
 
 ### Follow-up Tasks
 
-* **Tendermint:** light client verification for fast sync [#4457](https://github.com/tendermint/tendermint/issues/4457)
+* **Tendermint:** light client verification for fast sync [#4457](https://github.com/kava-labs/tendermint/issues/4457)
 
-* **Tendermint:** allow start with only blockstore [#3713](https://github.com/tendermint/tendermint/issues/3713)
+* **Tendermint:** allow start with only blockstore [#3713](https://github.com/kava-labs/tendermint/issues/3713)
 
-* **Tendermint:** node should go back to fast-syncing when lagging significantly [#129](https://github.com/tendermint/tendermint/issues/129)
+* **Tendermint:** node should go back to fast-syncing when lagging significantly [#129](https://github.com/kava-labs/tendermint/issues/129)
 
-* **Tendermint:** backfill historical blocks [#4629](https://github.com/tendermint/tendermint/issues/4629)
+* **Tendermint:** backfill historical blocks [#4629](https://github.com/kava-labs/tendermint/issues/4629)
 
 ## Status
 

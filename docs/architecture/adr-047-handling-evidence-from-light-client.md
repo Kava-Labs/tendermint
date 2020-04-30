@@ -75,7 +75,7 @@ If evidence is not immediately slashable, fork accountability needs to invoked
 
 It's unclear if we should further break up `ConflictingHeadersEvidence` or
 gossip and commit it directly. See
-https://github.com/tendermint/tendermint/issues/4182#issuecomment-590339233
+https://github.com/kava-labs/tendermint/issues/4182#issuecomment-590339233
 
 If we'd go without breaking evidence, all we'll need to do is to strip the
 committed header from `ConflictingHeadersEvidence` (H1) and leave only the
@@ -84,7 +84,7 @@ uncommitted header (H2):
 ```go
 type ConflictingHeaderEvidence struct {
   H types.SignedHeader
-}
+}github.com/kava-labs/tendermint
 ```
 
 If we'd go with breaking evidence, here are the types we'll need:

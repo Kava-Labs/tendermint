@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/tendermint/tendermint/crypto"
-	"github.com/tendermint/tendermint/crypto/ed25519"
-	tmos "github.com/tendermint/tendermint/libs/os"
+	"github.com/kava-labs/tendermint/crypto"
+	"github.com/kava-labs/tendermint/crypto/ed25519"
+	tmos "github.com/kava-labs/tendermint/libs/os"
 )
 
 // ID is a hex-encoded crypto.Address

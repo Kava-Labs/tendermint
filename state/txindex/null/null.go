@@ -4,9 +4,9 @@ import (
 	"context"
 	"errors"
 
-	"github.com/tendermint/tendermint/libs/pubsub/query"
-	"github.com/tendermint/tendermint/state/txindex"
-	"github.com/tendermint/tendermint/types"
+	"github.com/kava-labs/tendermint/libs/pubsub/query"
+	"github.com/kava-labs/tendermint/state/txindex"
+	"github.com/kava-labs/tendermint/types"
 )
 
 var _ txindex.TxIndexer = (*TxIndex)(nil)

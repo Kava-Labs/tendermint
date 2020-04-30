@@ -13,11 +13,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/tendermint/tendermint/crypto"
-	"github.com/tendermint/tendermint/crypto/ed25519"
-	tmmath "github.com/tendermint/tendermint/libs/math"
-	tmrand "github.com/tendermint/tendermint/libs/rand"
-	tmtime "github.com/tendermint/tendermint/types/time"
+	"github.com/kava-labs/tendermint/crypto"
+	"github.com/kava-labs/tendermint/crypto/ed25519"
+	tmmath "github.com/kava-labs/tendermint/libs/math"
+	tmrand "github.com/kava-labs/tendermint/libs/rand"
+	tmtime "github.com/kava-labs/tendermint/types/time"
 )
 
 func TestValidatorSetBasic(t *testing.T) {

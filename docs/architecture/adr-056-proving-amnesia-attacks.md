@@ -30,7 +30,7 @@ As the distinction between these two attacks (amnesia and back to the past) can 
 
 Currently, the evidence reactor is used to simply broadcast and store evidence. Instead of perhaps creating a new reactor for the specific task of verifying these attacks, the current evidence reactor will be extended.
 
-The process begins with a light client receiving conflicting headers (in the future this could also be a full node during fast sync), which it sends to a full node to analyse. As part of [evidence handling](https://github.com/tendermint/tendermint/blob/master/docs/architecture/adr-047-handling-evidence-from-light-client.md), this could be deduced into potential amnesia evidence
+The process begins with a light client receiving conflicting headers (in the future this could also be a full node during fast sync), which it sends to a full node to analyse. As part of [evidence handling](https://github.com/kava-labs/tendermint/blob/master/docs/architecture/adr-047-handling-evidence-from-light-client.md), this could be deduced into potential amnesia evidence
 
 ```golang
 type PotentialAmnesiaEvidence struct {

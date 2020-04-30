@@ -87,7 +87,7 @@ Hello, Tendermint Core
 
 Tendermint Core communicates with the application through the Application
 BlockChain Interface (ABCI). All message types are defined in the [protobuf
-file](https://github.com/tendermint/tendermint/blob/master/abci/types/types.proto).
+file](https://github.com/kava-labs/tendermint/blob/master/abci/types/types.proto).
 This allows Tendermint Core to run applications written in any programming
 language.
 
@@ -97,7 +97,7 @@ Create a file called `app.go` with the following content:
 package main
 
 import (
-	abcitypes "github.com/tendermint/tendermint/abci/types"
+	abcitypes "github.com/kava-labs/tendermint/abci/types"
 )
 
 type KVStoreApplication struct {}
@@ -291,7 +291,7 @@ the application's `Query` method.
 
 Applications are free to provide their own APIs. But by using Tendermint Core
 as a proxy, clients (including [light client
-package](https://godoc.org/github.com/tendermint/tendermint/lite2)) can leverage
+package](https://godoc.org/github.com/kava-labs/tendermint/lite2)) can leverage
 the unified API across different applications. Plus they won't have to call the
 otherwise separate Tendermint Core API for additional proofs.
 
@@ -342,8 +342,8 @@ import (
 
 	"github.com/dgraph-io/badger"
 
-	abciserver "github.com/tendermint/tendermint/abci/server"
-	"github.com/tendermint/tendermint/libs/log"
+	abciserver "github.com/kava-labs/tendermint/abci/server"
+	"github.com/kava-labs/tendermint/libs/log"
 )
 
 var socketAddr string
@@ -532,5 +532,5 @@ $ curl -s 'localhost:26657/abci_query?data="tendermint"'
 
 I hope everything went smoothly and your first, but hopefully not the last,
 Tendermint Core application is up and running. If not, please [open an issue on
-Github](https://github.com/tendermint/tendermint/issues/new/choose). To dig
+Github](https://github.com/kava-labs/tendermint/issues/new/choose). To dig
 deeper, read [the docs](https://docs.tendermint.com/master/).

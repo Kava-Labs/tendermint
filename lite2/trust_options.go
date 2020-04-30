@@ -5,7 +5,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/tendermint/tendermint/crypto/tmhash"
+	"github.com/kava-labs/tendermint/crypto/tmhash"
 )
 
 // TrustOptions are the trust parameters needed when a new light client

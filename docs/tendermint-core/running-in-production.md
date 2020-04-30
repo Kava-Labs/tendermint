@@ -33,7 +33,7 @@ or by increasing the `consensus.timeout_commit` param. Note both of these are
 local settings and not enforced by the consensus.
 
 We're working on [state
-syncing](https://github.com/tendermint/tendermint/issues/828),
+syncing](https://github.com/kava-labs/tendermint/issues/828),
 which will enable history to be thrown away
 and recent application state to be directly synced. We'll need to develop solutions
 for archival nodes that allow queries on historical transactions and states.
@@ -140,9 +140,9 @@ command will scrap all the available info and kill the process. See
 [Debugging](../tools/debugging.md) for the exact format.
 
 You can inspect the resulting archive yourself or create an issue on
-[Github](https://github.com/tendermint/tendermint). Before opening an issue
+[Github](https://github.com/kava-labs/tendermint). Before opening an issue
 however, be sure to check if there's [no existing
-issue](https://github.com/tendermint/tendermint/issues) already.
+issue](https://github.com/kava-labs/tendermint/issues) already.
 
 ## Monitoring Tendermint
 
@@ -264,9 +264,9 @@ Recommended:
 - x64 2.0 GHz 2v CPU
 
 While for now, Tendermint stores all the history and it may require
-significant disk space over time, we are planning to implement state
+significant disgithub.com/kava-labs/tendermintng to implement state
 syncing (See
-[this issue](https://github.com/tendermint/tendermint/issues/828)). So,
+[this issue](https://github.com/kava-labs/tendermint/issues/828)). So,
 storing all the past blocks will not be necessary.
 
 ### Operating Systems
@@ -343,7 +343,7 @@ proposing the next block).
 By default, Tendermint checks whenever a peer's address is routable before
 saving it to the address book. The address is considered as routable if the IP
 is [valid and within allowed
-ranges](https://github.com/tendermint/tendermint/blob/27bd1deabe4ba6a2d9b463b8f3e3f1e31b993e61/p2p/netaddress.go#L209).
+ranges](https://github.com/kava-labs/tendermint/blob/27bd1deabe4ba6a2d9b463b8f3e3f1e31b993e61/p2p/netaddress.go#L209).
 
 This may not be the case for private or local networks, where your IP range is usually
 strictly limited and private. If that case, you need to set `addr_book_strict`
@@ -355,7 +355,7 @@ By default, the number of simultaneous connections is limited because most OS
 give you limited number of file descriptors.
 
 If you want to accept greater number of connections, you will need to increase
-these limits.
+these limits.github.com/kava-labs/tendermint
 
 [Sysctls to tune the system to be able to open more connections](https://github.com/satori-com/tcpkali/blob/master/doc/tcpkali.man.md#sysctls-to-tune-the-system-to-be-able-to-open-more-connections)
 
