@@ -14,19 +14,19 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	abci "github.com/tendermint/tendermint/abci/types"
+	abci "github.com/kava-labs/tendermint/abci/types"
 
-	"github.com/tendermint/tendermint/crypto/ed25519"
-	"github.com/tendermint/tendermint/crypto/tmhash"
-	"github.com/tendermint/tendermint/libs/log"
-	tmmath "github.com/tendermint/tendermint/libs/math"
-	mempl "github.com/tendermint/tendermint/mempool"
-	"github.com/tendermint/tendermint/privval"
-	"github.com/tendermint/tendermint/rpc/client"
-	ctypes "github.com/tendermint/tendermint/rpc/core/types"
-	rpcclient "github.com/tendermint/tendermint/rpc/lib/client"
-	rpctest "github.com/tendermint/tendermint/rpc/test"
-	"github.com/tendermint/tendermint/types"
+	"github.com/kava-labs/tendermint/crypto/ed25519"
+	"github.com/kava-labs/tendermint/crypto/tmhash"
+	"github.com/kava-labs/tendermint/libs/log"
+	tmmath "github.com/kava-labs/tendermint/libs/math"
+	mempl "github.com/kava-labs/tendermint/mempool"
+	"github.com/kava-labs/tendermint/privval"
+	"github.com/kava-labs/tendermint/rpc/client"
+	ctypes "github.com/kava-labs/tendermint/rpc/core/types"
+	rpcclient "github.com/kava-labs/tendermint/rpc/lib/client"
+	rpctest "github.com/kava-labs/tendermint/rpc/test"
+	"github.com/kava-labs/tendermint/types"
 )
 
 func getHTTPClient() *client.HTTP {

@@ -9,11 +9,11 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/tendermint/tendermint/libs/log"
-	tmmath "github.com/tendermint/tendermint/libs/math"
-	"github.com/tendermint/tendermint/lite2/provider"
-	"github.com/tendermint/tendermint/lite2/store"
-	"github.com/tendermint/tendermint/types"
+	"github.com/kava-labs/tendermint/libs/log"
+	tmmath "github.com/kava-labs/tendermint/libs/math"
+	"github.com/kava-labs/tendermint/lite2/provider"
+	"github.com/kava-labs/tendermint/lite2/store"
+	"github.com/kava-labs/tendermint/types"
 )
 
 type mode byte

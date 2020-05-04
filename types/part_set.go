@@ -8,10 +8,10 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/tendermint/tendermint/crypto/merkle"
-	"github.com/tendermint/tendermint/libs/bits"
-	tmbytes "github.com/tendermint/tendermint/libs/bytes"
-	tmmath "github.com/tendermint/tendermint/libs/math"
+	"github.com/kava-labs/tendermint/crypto/merkle"
+	"github.com/kava-labs/tendermint/libs/bits"
+	tmbytes "github.com/kava-labs/tendermint/libs/bytes"
+	tmmath "github.com/kava-labs/tendermint/libs/math"
 )
 
 var (

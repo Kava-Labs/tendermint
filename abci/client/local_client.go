@@ -3,8 +3,8 @@ package abcicli
 import (
 	"sync"
 
-	types "github.com/tendermint/tendermint/abci/types"
-	"github.com/tendermint/tendermint/libs/service"
+	types "github.com/kava-labs/tendermint/abci/types"
+	"github.com/kava-labs/tendermint/libs/service"
 )
 
 var _ Client = (*localClient)(nil)

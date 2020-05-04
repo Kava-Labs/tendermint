@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/tendermint/tendermint/crypto/ed25519"
-	"github.com/tendermint/tendermint/p2p/conn"
+	"github.com/kava-labs/tendermint/crypto/ed25519"
+	"github.com/kava-labs/tendermint/p2p/conn"
 )
 
 var defaultNodeName = "host_peer"

@@ -11,12 +11,12 @@ import (
 	"github.com/pkg/errors"
 
 	amino "github.com/tendermint/go-amino"
-	auto "github.com/tendermint/tendermint/libs/autofile"
-	"github.com/tendermint/tendermint/libs/log"
-	tmos "github.com/tendermint/tendermint/libs/os"
-	"github.com/tendermint/tendermint/libs/service"
-	"github.com/tendermint/tendermint/types"
-	tmtime "github.com/tendermint/tendermint/types/time"
+	auto "github.com/kava-labs/tendermint/libs/autofile"
+	"github.com/kava-labs/tendermint/libs/log"
+	tmos "github.com/kava-labs/tendermint/libs/os"
+	"github.com/kava-labs/tendermint/libs/service"
+	"github.com/kava-labs/tendermint/types"
+	tmtime "github.com/kava-labs/tendermint/types/time"
 )
 
 const (

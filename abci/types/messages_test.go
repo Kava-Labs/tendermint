@@ -9,7 +9,7 @@ import (
 	"github.com/gogo/protobuf/proto"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/tendermint/tendermint/libs/kv"
+	"github.com/kava-labs/tendermint/libs/kv"
 )
 
 func TestMarshalJSON(t *testing.T) {

@@ -8,9 +8,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	sm "github.com/tendermint/tendermint/state"
-	"github.com/tendermint/tendermint/types"
-	tmtime "github.com/tendermint/tendermint/types/time"
+	sm "github.com/kava-labs/tendermint/state"
+	"github.com/kava-labs/tendermint/types"
+	tmtime "github.com/kava-labs/tendermint/types/time"
 	dbm "github.com/tendermint/tm-db"
 )
 

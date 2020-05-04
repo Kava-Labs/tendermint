@@ -1,8 +1,8 @@
 package p2p
 
 import (
-	"github.com/tendermint/tendermint/libs/service"
-	"github.com/tendermint/tendermint/p2p/conn"
+	"github.com/kava-labs/tendermint/libs/service"
+	"github.com/kava-labs/tendermint/p2p/conn"
 )
 
 // Reactor is responsible for handling incoming messages on one or more

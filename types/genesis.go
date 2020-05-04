@@ -9,10 +9,10 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/tendermint/tendermint/crypto"
-	tmbytes "github.com/tendermint/tendermint/libs/bytes"
-	tmos "github.com/tendermint/tendermint/libs/os"
-	tmtime "github.com/tendermint/tendermint/types/time"
+	"github.com/kava-labs/tendermint/crypto"
+	tmbytes "github.com/kava-labs/tendermint/libs/bytes"
+	tmos "github.com/kava-labs/tendermint/libs/os"
+	tmtime "github.com/kava-labs/tendermint/types/time"
 )
 
 const (

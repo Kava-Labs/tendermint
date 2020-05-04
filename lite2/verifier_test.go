@@ -7,8 +7,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	tmmath "github.com/tendermint/tendermint/libs/math"
-	"github.com/tendermint/tendermint/types"
+	tmmath "github.com/kava-labs/tendermint/libs/math"
+	"github.com/kava-labs/tendermint/types"
 )
 
 func TestVerifyAdjacentHeaders(t *testing.T) {

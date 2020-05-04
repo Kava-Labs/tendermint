@@ -17,16 +17,16 @@ import (
 
 	amino "github.com/tendermint/go-amino"
 
-	"github.com/tendermint/tendermint/abci/example/counter"
-	"github.com/tendermint/tendermint/abci/example/kvstore"
-	abciserver "github.com/tendermint/tendermint/abci/server"
-	abci "github.com/tendermint/tendermint/abci/types"
-	cfg "github.com/tendermint/tendermint/config"
-	"github.com/tendermint/tendermint/libs/log"
-	tmrand "github.com/tendermint/tendermint/libs/rand"
-	"github.com/tendermint/tendermint/libs/service"
-	"github.com/tendermint/tendermint/proxy"
-	"github.com/tendermint/tendermint/types"
+	"github.com/kava-labs/tendermint/abci/example/counter"
+	"github.com/kava-labs/tendermint/abci/example/kvstore"
+	abciserver "github.com/kava-labs/tendermint/abci/server"
+	abci "github.com/kava-labs/tendermint/abci/types"
+	cfg "github.com/kava-labs/tendermint/config"
+	"github.com/kava-labs/tendermint/libs/log"
+	tmrand "github.com/kava-labs/tendermint/libs/rand"
+	"github.com/kava-labs/tendermint/libs/service"
+	"github.com/kava-labs/tendermint/proxy"
+	"github.com/kava-labs/tendermint/types"
 )
 
 // A cleanupFunc cleans up any config / test files created for a particular
@@ -539,7 +539,7 @@ func TestMempoolTxsBytes(t *testing.T) {
 }
 
 // This will non-deterministically catch some concurrency failures like
-// https://github.com/tendermint/tendermint/issues/3509
+// https://github.com/kava-labs/tendermint/issues/3509
 // TODO: all of the tests should probably also run using the remote proxy app
 // since otherwise we're not actually testing the concurrency of the mempool here!
 func TestMempoolRemoteAppConcurrency(t *testing.T) {

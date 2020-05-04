@@ -7,10 +7,10 @@ import (
 	"io/ioutil"
 	"testing"
 
-	abci "github.com/tendermint/tendermint/abci/types"
-	"github.com/tendermint/tendermint/libs/kv"
-	"github.com/tendermint/tendermint/libs/pubsub/query"
-	"github.com/tendermint/tendermint/types"
+	abci "github.com/kava-labs/tendermint/abci/types"
+	"github.com/kava-labs/tendermint/libs/kv"
+	"github.com/kava-labs/tendermint/libs/pubsub/query"
+	"github.com/kava-labs/tendermint/types"
 	dbm "github.com/tendermint/tm-db"
 )
 

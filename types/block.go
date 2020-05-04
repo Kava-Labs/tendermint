@@ -9,13 +9,13 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/tendermint/tendermint/crypto"
-	"github.com/tendermint/tendermint/crypto/merkle"
-	"github.com/tendermint/tendermint/crypto/tmhash"
-	"github.com/tendermint/tendermint/libs/bits"
-	tmbytes "github.com/tendermint/tendermint/libs/bytes"
-	tmmath "github.com/tendermint/tendermint/libs/math"
-	"github.com/tendermint/tendermint/version"
+	"github.com/kava-labs/tendermint/crypto"
+	"github.com/kava-labs/tendermint/crypto/merkle"
+	"github.com/kava-labs/tendermint/crypto/tmhash"
+	"github.com/kava-labs/tendermint/libs/bits"
+	tmbytes "github.com/kava-labs/tendermint/libs/bytes"
+	tmmath "github.com/kava-labs/tendermint/libs/math"
+	"github.com/kava-labs/tendermint/version"
 )
 
 const (
