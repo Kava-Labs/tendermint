@@ -6,8 +6,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/tendermint/tendermint/libs/log"
-	"github.com/tendermint/tendermint/libs/service"
+	"github.com/kava-labs/tendermint/libs/log"
+	"github.com/kava-labs/tendermint/libs/service"
 )
 
 // SignerValidatorEndpointOption sets an optional parameter on the SocketVal.

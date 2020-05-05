@@ -12,12 +12,12 @@ import (
 
 	db "github.com/tendermint/tm-db"
 
-	abci "github.com/tendermint/tendermint/abci/types"
-	"github.com/tendermint/tendermint/libs/kv"
-	"github.com/tendermint/tendermint/libs/pubsub/query"
-	tmrand "github.com/tendermint/tendermint/libs/rand"
-	"github.com/tendermint/tendermint/state/txindex"
-	"github.com/tendermint/tendermint/types"
+	abci "github.com/kava-labs/tendermint/abci/types"
+	"github.com/kava-labs/tendermint/libs/kv"
+	"github.com/kava-labs/tendermint/libs/pubsub/query"
+	tmrand "github.com/kava-labs/tendermint/libs/rand"
+	"github.com/kava-labs/tendermint/state/txindex"
+	"github.com/kava-labs/tendermint/types"
 )
 
 func TestTxIndex(t *testing.T) {
@@ -284,7 +284,7 @@ func TestTxSearchMultipleTxs(t *testing.T) {
 	require.NoError(t, err)
 
 	// indexed fourth (to test we don't include txs with similar events)
-	// https://github.com/tendermint/tendermint/issues/2908
+	// https://github.com/kava-labs/tendermint/issues/2908
 	txResult4 := txResultWithEvents([]abci.Event{
 		{Type: "account", Attributes: []kv.Pair{{Key: []byte("number.id"), Value: []byte("1")}}},
 	})

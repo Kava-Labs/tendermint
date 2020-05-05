@@ -9,11 +9,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	abcicli "github.com/tendermint/tendermint/abci/client"
-	"github.com/tendermint/tendermint/abci/server"
-	"github.com/tendermint/tendermint/abci/types"
-	tmrand "github.com/tendermint/tendermint/libs/rand"
-	"github.com/tendermint/tendermint/libs/service"
+	abcicli "github.com/kava-labs/tendermint/abci/client"
+	"github.com/kava-labs/tendermint/abci/server"
+	"github.com/kava-labs/tendermint/abci/types"
+	tmrand "github.com/kava-labs/tendermint/libs/rand"
+	"github.com/kava-labs/tendermint/libs/service"
 )
 
 type errorStopper interface {

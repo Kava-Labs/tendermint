@@ -9,7 +9,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/tendermint/tendermint/libs/service"
+	"github.com/kava-labs/tendermint/libs/service"
 	dbm "github.com/tendermint/tm-db"
 )
 

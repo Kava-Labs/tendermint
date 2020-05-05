@@ -5,9 +5,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	abci "github.com/tendermint/tendermint/abci/types"
-	"github.com/tendermint/tendermint/crypto/tmhash"
-	tmstrings "github.com/tendermint/tendermint/libs/strings"
+	abci "github.com/kava-labs/tendermint/abci/types"
+	"github.com/kava-labs/tendermint/crypto/tmhash"
+	tmstrings "github.com/kava-labs/tendermint/libs/strings"
 )
 
 const (

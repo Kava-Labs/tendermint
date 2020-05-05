@@ -9,13 +9,13 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/tendermint/tendermint/abci/example/kvstore"
-	abci "github.com/tendermint/tendermint/abci/types"
-	"github.com/tendermint/tendermint/libs/bytes"
-	"github.com/tendermint/tendermint/rpc/client"
-	"github.com/tendermint/tendermint/rpc/client/mock"
-	ctypes "github.com/tendermint/tendermint/rpc/core/types"
-	"github.com/tendermint/tendermint/types"
+	"github.com/kava-labs/tendermint/abci/example/kvstore"
+	abci "github.com/kava-labs/tendermint/abci/types"
+	"github.com/kava-labs/tendermint/libs/bytes"
+	"github.com/kava-labs/tendermint/rpc/client"
+	"github.com/kava-labs/tendermint/rpc/client/mock"
+	ctypes "github.com/kava-labs/tendermint/rpc/core/types"
+	"github.com/kava-labs/tendermint/types"
 )
 
 func TestABCIMock(t *testing.T) {

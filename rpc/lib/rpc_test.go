@@ -17,13 +17,13 @@ import (
 	"github.com/stretchr/testify/require"
 
 	amino "github.com/tendermint/go-amino"
-	tmbytes "github.com/tendermint/tendermint/libs/bytes"
-	"github.com/tendermint/tendermint/libs/log"
-	tmrand "github.com/tendermint/tendermint/libs/rand"
+	tmbytes "github.com/kava-labs/tendermint/libs/bytes"
+	"github.com/kava-labs/tendermint/libs/log"
+	tmrand "github.com/kava-labs/tendermint/libs/rand"
 
-	client "github.com/tendermint/tendermint/rpc/lib/client"
-	server "github.com/tendermint/tendermint/rpc/lib/server"
-	types "github.com/tendermint/tendermint/rpc/lib/types"
+	client "github.com/kava-labs/tendermint/rpc/lib/client"
+	server "github.com/kava-labs/tendermint/rpc/lib/server"
+	types "github.com/kava-labs/tendermint/rpc/lib/types"
 )
 
 // Client and Server should work over tcp or unix sockets

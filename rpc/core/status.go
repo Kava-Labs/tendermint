@@ -4,12 +4,12 @@ import (
 	"bytes"
 	"time"
 
-	tmbytes "github.com/tendermint/tendermint/libs/bytes"
-	"github.com/tendermint/tendermint/p2p"
-	ctypes "github.com/tendermint/tendermint/rpc/core/types"
-	rpctypes "github.com/tendermint/tendermint/rpc/lib/types"
-	sm "github.com/tendermint/tendermint/state"
-	"github.com/tendermint/tendermint/types"
+	tmbytes "github.com/kava-labs/tendermint/libs/bytes"
+	"github.com/kava-labs/tendermint/p2p"
+	ctypes "github.com/kava-labs/tendermint/rpc/core/types"
+	rpctypes "github.com/kava-labs/tendermint/rpc/lib/types"
+	sm "github.com/kava-labs/tendermint/state"
+	"github.com/kava-labs/tendermint/types"
 )
 
 // Status returns Tendermint status including node info, pubkey, latest block

@@ -6,11 +6,11 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/tendermint/tendermint/libs/log"
-	tmmath "github.com/tendermint/tendermint/libs/math"
-	tmrand "github.com/tendermint/tendermint/libs/rand"
-	"github.com/tendermint/tendermint/p2p"
-	"github.com/tendermint/tendermint/types"
+	"github.com/kava-labs/tendermint/libs/log"
+	tmmath "github.com/kava-labs/tendermint/libs/math"
+	tmrand "github.com/kava-labs/tendermint/libs/rand"
+	"github.com/kava-labs/tendermint/p2p"
+	"github.com/kava-labs/tendermint/types"
 )
 
 type lastBlockRequestT struct {

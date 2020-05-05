@@ -1,11 +1,11 @@
 package core
 
 import (
-	abci "github.com/tendermint/tendermint/abci/types"
-	"github.com/tendermint/tendermint/libs/bytes"
-	"github.com/tendermint/tendermint/proxy"
-	ctypes "github.com/tendermint/tendermint/rpc/core/types"
-	rpctypes "github.com/tendermint/tendermint/rpc/lib/types"
+	abci "github.com/kava-labs/tendermint/abci/types"
+	"github.com/kava-labs/tendermint/libs/bytes"
+	"github.com/kava-labs/tendermint/proxy"
+	ctypes "github.com/kava-labs/tendermint/rpc/core/types"
+	rpctypes "github.com/kava-labs/tendermint/rpc/lib/types"
 )
 
 // ABCIQuery queries the application for some information.

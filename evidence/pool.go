@@ -5,12 +5,12 @@ import (
 	"sync"
 	"time"
 
-	clist "github.com/tendermint/tendermint/libs/clist"
-	"github.com/tendermint/tendermint/libs/log"
+	clist "github.com/kava-labs/tendermint/libs/clist"
+	"github.com/kava-labs/tendermint/libs/log"
 	dbm "github.com/tendermint/tm-db"
 
-	sm "github.com/tendermint/tendermint/state"
-	"github.com/tendermint/tendermint/types"
+	sm "github.com/kava-labs/tendermint/state"
+	"github.com/kava-labs/tendermint/types"
 )
 
 // Pool maintains a pool of valid evidence

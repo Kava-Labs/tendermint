@@ -9,13 +9,13 @@ import (
 	"github.com/pkg/errors"
 
 	amino "github.com/tendermint/go-amino"
-	"github.com/tendermint/tendermint/libs/cmap"
-	tmmath "github.com/tendermint/tendermint/libs/math"
-	"github.com/tendermint/tendermint/libs/rand"
-	tmrand "github.com/tendermint/tendermint/libs/rand"
-	"github.com/tendermint/tendermint/libs/service"
-	"github.com/tendermint/tendermint/p2p"
-	"github.com/tendermint/tendermint/p2p/conn"
+	"github.com/kava-labs/tendermint/libs/cmap"
+	tmmath "github.com/kava-labs/tendermint/libs/math"
+	"github.com/kava-labs/tendermint/libs/rand"
+	tmrand "github.com/kava-labs/tendermint/libs/rand"
+	"github.com/kava-labs/tendermint/libs/service"
+	"github.com/kava-labs/tendermint/p2p"
+	"github.com/kava-labs/tendermint/p2p/conn"
 )
 
 type Peer = p2p.Peer
@@ -528,7 +528,7 @@ func (r *Reactor) dialPeer(addr *p2p.NetAddress) error {
 		// TODO(melekes): have a blacklist in the addrbook with peers whom we've
 		// failed to connect to. Then we can clean up attemptsToDial, which acts as
 		// a blacklist currently.
-		// https://github.com/tendermint/tendermint/issues/3572
+		// https://github.com/kava-labs/tendermint/issues/3572
 		r.book.MarkBad(addr)
 		return errMaxAttemptsToDial{}
 	}

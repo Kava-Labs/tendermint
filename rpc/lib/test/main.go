@@ -7,10 +7,10 @@ import (
 
 	amino "github.com/tendermint/go-amino"
 
-	"github.com/tendermint/tendermint/libs/log"
-	tmos "github.com/tendermint/tendermint/libs/os"
-	rpcserver "github.com/tendermint/tendermint/rpc/lib/server"
-	rpctypes "github.com/tendermint/tendermint/rpc/lib/types"
+	"github.com/kava-labs/tendermint/libs/log"
+	tmos "github.com/kava-labs/tendermint/libs/os"
+	rpcserver "github.com/kava-labs/tendermint/rpc/lib/server"
+	rpctypes "github.com/kava-labs/tendermint/rpc/lib/types"
 )
 
 var routes = map[string]*rpcserver.RPCFunc{

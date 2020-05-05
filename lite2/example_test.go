@@ -10,11 +10,11 @@ import (
 
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/tendermint/tendermint/abci/example/kvstore"
-	"github.com/tendermint/tendermint/lite2/provider"
-	httpp "github.com/tendermint/tendermint/lite2/provider/http"
-	dbs "github.com/tendermint/tendermint/lite2/store/db"
-	rpctest "github.com/tendermint/tendermint/rpc/test"
+	"github.com/kava-labs/tendermint/abci/example/kvstore"
+	"github.com/kava-labs/tendermint/lite2/provider"
+	httpp "github.com/kava-labs/tendermint/lite2/provider/http"
+	dbs "github.com/kava-labs/tendermint/lite2/store/db"
+	rpctest "github.com/kava-labs/tendermint/rpc/test"
 )
 
 // Automatically getting new headers and verifying them.
@@ -72,7 +72,7 @@ func ExampleClient_Update() {
 	// XXX: 30 * time.Minute clock drift is needed because a) Tendermint strips
 	// monotonic component (see types/time/time.go) b) single instance is being
 	// run.
-	// https://github.com/tendermint/tendermint/issues/4489
+	// https://github.com/kava-labs/tendermint/issues/4489
 	h, err := c.Update(time.Now().Add(30 * time.Minute))
 	if err != nil {
 		stdlog.Fatal(err)

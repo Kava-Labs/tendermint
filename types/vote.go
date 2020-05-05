@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/tendermint/tendermint/crypto"
-	tmbytes "github.com/tendermint/tendermint/libs/bytes"
+	"github.com/kava-labs/tendermint/crypto"
+	tmbytes "github.com/kava-labs/tendermint/libs/bytes"
 )
 
 const (

@@ -39,7 +39,7 @@ import (
 	"sync"
 
 	"github.com/pkg/errors"
-	"github.com/tendermint/tendermint/libs/service"
+	"github.com/kava-labs/tendermint/libs/service"
 )
 
 type operation int

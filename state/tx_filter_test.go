@@ -7,9 +7,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	tmrand "github.com/tendermint/tendermint/libs/rand"
-	sm "github.com/tendermint/tendermint/state"
-	"github.com/tendermint/tendermint/types"
+	tmrand "github.com/kava-labs/tendermint/libs/rand"
+	sm "github.com/kava-labs/tendermint/state"
+	"github.com/kava-labs/tendermint/types"
 	dbm "github.com/tendermint/tm-db"
 )
 

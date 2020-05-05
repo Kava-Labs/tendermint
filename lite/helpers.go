@@ -1,12 +1,12 @@
 package lite
 
 import (
-	"github.com/tendermint/tendermint/crypto"
-	"github.com/tendermint/tendermint/crypto/ed25519"
-	"github.com/tendermint/tendermint/crypto/secp256k1"
+	"github.com/kava-labs/tendermint/crypto"
+	"github.com/kava-labs/tendermint/crypto/ed25519"
+	"github.com/kava-labs/tendermint/crypto/secp256k1"
 
-	"github.com/tendermint/tendermint/types"
-	tmtime "github.com/tendermint/tendermint/types/time"
+	"github.com/kava-labs/tendermint/types"
+	tmtime "github.com/kava-labs/tendermint/types/time"
 )
 
 // PrivKeys is a helper type for testing.
