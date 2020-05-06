@@ -33,7 +33,7 @@ import (
 	"github.com/kava-labs/tendermint/store"
 	"github.com/kava-labs/tendermint/types"
 	tmtime "github.com/kava-labs/tendermint/types/time"
-	dbm "github.com/tendermint/tm-db"
+	dbm "github.com/kava-labs/tm-db"
 )
 
 const (

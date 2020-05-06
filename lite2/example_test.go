@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	dbm "github.com/tendermint/tm-db"
+	dbm "github.com/kava-labs/tm-db"
 
 	"github.com/kava-labs/tendermint/abci/example/kvstore"
 	"github.com/kava-labs/tendermint/lite2/provider"

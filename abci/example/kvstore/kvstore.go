@@ -10,7 +10,7 @@ import (
 	"github.com/kava-labs/tendermint/abci/types"
 	"github.com/kava-labs/tendermint/libs/kv"
 	"github.com/kava-labs/tendermint/version"
-	dbm "github.com/tendermint/tm-db"
+	dbm "github.com/kava-labs/tm-db"
 )
 
 var (

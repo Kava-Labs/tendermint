@@ -17,7 +17,7 @@ import (
 	"github.com/kava-labs/tendermint/libs/rand"
 	tmrand "github.com/kava-labs/tendermint/libs/rand"
 	sm "github.com/kava-labs/tendermint/state"
-	dbm "github.com/tendermint/tm-db"
+	dbm "github.com/kava-labs/tm-db"
 
 	cfg "github.com/kava-labs/tendermint/config"
 	"github.com/kava-labs/tendermint/types"

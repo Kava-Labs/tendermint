@@ -11,7 +11,7 @@ import (
 	"github.com/kava-labs/tendermint/libs/kv"
 	"github.com/kava-labs/tendermint/libs/pubsub/query"
 	"github.com/kava-labs/tendermint/types"
-	dbm "github.com/tendermint/tm-db"
+	dbm "github.com/kava-labs/tm-db"
 )
 
 func BenchmarkTxSearch(b *testing.B) {

@@ -29,7 +29,7 @@ import (
 	sm "github.com/kava-labs/tendermint/state"
 	"github.com/kava-labs/tendermint/store"
 	"github.com/kava-labs/tendermint/types"
-	dbm "github.com/tendermint/tm-db"
+	dbm "github.com/kava-labs/tm-db"
 )
 
 //----------------------------------------------

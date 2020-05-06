@@ -10,7 +10,7 @@ import (
 	log "github.com/kava-labs/tendermint/libs/log"
 	lerr "github.com/kava-labs/tendermint/lite/errors"
 	"github.com/kava-labs/tendermint/types"
-	dbm "github.com/tendermint/tm-db"
+	dbm "github.com/kava-labs/tm-db"
 )
 
 var _ PersistentProvider = (*DBProvider)(nil)

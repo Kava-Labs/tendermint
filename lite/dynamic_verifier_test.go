@@ -10,7 +10,7 @@ import (
 
 	log "github.com/kava-labs/tendermint/libs/log"
 	"github.com/kava-labs/tendermint/types"
-	dbm "github.com/tendermint/tm-db"
+	dbm "github.com/kava-labs/tm-db"
 )
 
 const testChainID = "inquiry-test"

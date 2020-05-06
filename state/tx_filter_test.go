@@ -10,7 +10,7 @@ import (
 	tmrand "github.com/kava-labs/tendermint/libs/rand"
 	sm "github.com/kava-labs/tendermint/state"
 	"github.com/kava-labs/tendermint/types"
-	dbm "github.com/tendermint/tm-db"
+	dbm "github.com/kava-labs/tm-db"
 )
 
 func TestTxFilter(t *testing.T) {

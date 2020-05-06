@@ -13,7 +13,7 @@ import (
 
 	abci "github.com/kava-labs/tendermint/abci/types"
 	//auto "github.com/kava-labs/tendermint/libs/autofile"
-	dbm "github.com/tendermint/tm-db"
+	dbm "github.com/kava-labs/tm-db"
 
 	"github.com/kava-labs/tendermint/libs/log"
 	"github.com/kava-labs/tendermint/mock"

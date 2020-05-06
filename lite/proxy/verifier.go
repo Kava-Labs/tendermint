@@ -6,7 +6,7 @@ import (
 	log "github.com/kava-labs/tendermint/libs/log"
 	"github.com/kava-labs/tendermint/lite"
 	lclient "github.com/kava-labs/tendermint/lite/client"
-	dbm "github.com/tendermint/tm-db"
+	dbm "github.com/kava-labs/tm-db"
 )
 
 func NewVerifier(

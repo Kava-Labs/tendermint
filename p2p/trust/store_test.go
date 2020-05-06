@@ -11,7 +11,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 	"github.com/kava-labs/tendermint/libs/log"
-	dbm "github.com/tendermint/tm-db"
+	dbm "github.com/kava-labs/tm-db"
 )
 
 func TestTrustMetricStoreSaveLoad(t *testing.T) {

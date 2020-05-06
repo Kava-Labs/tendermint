@@ -10,7 +10,7 @@ import (
 	"strings"
 
 	"github.com/pkg/errors"
-	dbm "github.com/tendermint/tm-db"
+	dbm "github.com/kava-labs/tm-db"
 
 	cfg "github.com/kava-labs/tendermint/config"
 	"github.com/kava-labs/tendermint/libs/log"

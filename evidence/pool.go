@@ -7,7 +7,7 @@ import (
 
 	clist "github.com/kava-labs/tendermint/libs/clist"
 	"github.com/kava-labs/tendermint/libs/log"
-	dbm "github.com/tendermint/tm-db"
+	dbm "github.com/kava-labs/tm-db"
 
 	sm "github.com/kava-labs/tendermint/state"
 	"github.com/kava-labs/tendermint/types"

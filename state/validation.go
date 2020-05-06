@@ -7,7 +7,7 @@ import (
 
 	"github.com/kava-labs/tendermint/crypto"
 	"github.com/kava-labs/tendermint/types"
-	dbm "github.com/tendermint/tm-db"
+	dbm "github.com/kava-labs/tm-db"
 )
 
 //-----------------------------------------------------

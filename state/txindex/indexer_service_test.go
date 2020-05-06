@@ -12,7 +12,7 @@ import (
 	"github.com/kava-labs/tendermint/state/txindex"
 	"github.com/kava-labs/tendermint/state/txindex/kv"
 	"github.com/kava-labs/tendermint/types"
-	db "github.com/tendermint/tm-db"
+	db "github.com/kava-labs/tm-db"
 )
 
 func TestIndexerServiceIndexesBlocks(t *testing.T) {

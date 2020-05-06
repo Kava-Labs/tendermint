@@ -12,7 +12,7 @@ import (
 	rpctypes "github.com/kava-labs/tendermint/rpc/lib/types"
 	sm "github.com/kava-labs/tendermint/state"
 	"github.com/kava-labs/tendermint/types"
-	dbm "github.com/tendermint/tm-db"
+	dbm "github.com/kava-labs/tm-db"
 )
 
 func TestBlockchainInfo(t *testing.T) {

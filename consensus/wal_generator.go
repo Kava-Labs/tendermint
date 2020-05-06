@@ -21,7 +21,7 @@ import (
 	sm "github.com/kava-labs/tendermint/state"
 	"github.com/kava-labs/tendermint/store"
 	"github.com/kava-labs/tendermint/types"
-	db "github.com/tendermint/tm-db"
+	db "github.com/kava-labs/tm-db"
 )
 
 // WALGenerateNBlocks generates a consensus WAL. It does this by spinning up a

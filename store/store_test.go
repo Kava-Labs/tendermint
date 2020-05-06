@@ -12,8 +12,8 @@ import (
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	db "github.com/tendermint/tm-db"
-	dbm "github.com/tendermint/tm-db"
+	db "github.com/kava-labs/tm-db"
+	dbm "github.com/kava-labs/tm-db"
 
 	cfg "github.com/kava-labs/tendermint/config"
 	"github.com/kava-labs/tendermint/libs/log"

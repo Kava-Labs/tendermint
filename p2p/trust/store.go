@@ -10,7 +10,7 @@ import (
 	"time"
 
 	"github.com/kava-labs/tendermint/libs/service"
-	dbm "github.com/tendermint/tm-db"
+	dbm "github.com/kava-labs/tm-db"
 )
 
 const defaultStorePeriodicSaveInterval = 1 * time.Minute

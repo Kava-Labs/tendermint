@@ -45,7 +45,7 @@ import (
 	"github.com/kava-labs/tendermint/types"
 	tmtime "github.com/kava-labs/tendermint/types/time"
 	"github.com/kava-labs/tendermint/version"
-	dbm "github.com/tendermint/tm-db"
+	dbm "github.com/kava-labs/tm-db"
 )
 
 //------------------------------------------------------------------------------

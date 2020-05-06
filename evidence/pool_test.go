@@ -11,7 +11,7 @@ import (
 	sm "github.com/kava-labs/tendermint/state"
 	"github.com/kava-labs/tendermint/types"
 	tmtime "github.com/kava-labs/tendermint/types/time"
-	dbm "github.com/tendermint/tm-db"
+	dbm "github.com/kava-labs/tm-db"
 )
 
 func TestMain(m *testing.M) {

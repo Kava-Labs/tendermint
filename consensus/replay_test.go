@@ -30,7 +30,7 @@ import (
 	sm "github.com/kava-labs/tendermint/state"
 	"github.com/kava-labs/tendermint/types"
 	"github.com/kava-labs/tendermint/version"
-	dbm "github.com/tendermint/tm-db"
+	dbm "github.com/kava-labs/tm-db"
 )
 
 func TestMain(m *testing.M) {

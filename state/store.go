@@ -7,7 +7,7 @@ import (
 	tmmath "github.com/kava-labs/tendermint/libs/math"
 	tmos "github.com/kava-labs/tendermint/libs/os"
 	"github.com/kava-labs/tendermint/types"
-	dbm "github.com/tendermint/tm-db"
+	dbm "github.com/kava-labs/tm-db"
 )
 
 const (
