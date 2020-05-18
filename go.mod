@@ -7,6 +7,7 @@ require (
 	github.com/Workiva/go-datastructures v1.0.52
 	github.com/btcsuite/btcd v0.0.0-20190115013929-ed77733ec07d
 	github.com/btcsuite/btcutil v0.0.0-20180706230648-ab6388e0c60a
+	github.com/etcd-io/bbolt v1.3.3 // indirect
 	github.com/fortytw2/leaktest v1.3.0
 	github.com/go-kit/kit v0.10.0
 	github.com/go-logfmt/logfmt v0.5.0
@@ -14,7 +15,7 @@ require (
 	github.com/golang/protobuf v1.3.4
 	github.com/gorilla/websocket v1.4.1
 	github.com/gtank/merlin v0.1.1-0.20191105220539-8318aed1a79f
-	github.com/kava-labs/tm-db v0.4.2-0.20200506040135-3f7b09feebcd
+	github.com/kava-labs/tm-db v0.4.1-stable
 	github.com/libp2p/go-buffer-pool v0.0.2
 	github.com/magiconair/properties v1.8.1
 	github.com/pkg/errors v0.9.1
@@ -27,8 +28,8 @@ require (
 	github.com/stretchr/testify v1.5.1
 	github.com/tendermint/go-amino v0.14.1
 	golang.org/x/crypto v0.0.0-20191206172530-e9b2fee46413
-	golang.org/x/net v0.0.0-20190813141303-74dc4d7220e7
-	google.golang.org/grpc v1.27.1
+	golang.org/x/net v0.0.0-20200324143707-d3edc9973b7e
+	google.golang.org/grpc v1.29.1
 )
 
 replace github.com/tendermint/tm-db => github.com/kava-labs/tm-db v0.4.2-0.20200506040135-3f7b09feebcd
