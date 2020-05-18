@@ -32,4 +32,4 @@ require (
 	google.golang.org/grpc v1.29.1
 )
 
-replace github.com/tendermint/tm-db => github.com/kava-labs/tm-db v0.4.2-0.20200506040135-3f7b09feebcd
+replace github.com/tendermint/tm-db => github.com/kava-labs/tm-db v0.4.1-stable

@@ -218,8 +218,6 @@ github.com/jtolds/gls v4.20.0+incompatible/go.mod h1:QJZ7F/aHp+rZTRtaJ1ow/lLfFfV
 github.com/julienschmidt/httprouter v1.2.0/go.mod h1:SYymIcj16QtmaHHD7aYtjjsJG7VTCxuUUipMqKk8s4w=
 github.com/kava-labs/tm-db v0.4.1-stable h1:yGn7r+cd58oSQ7DyVXlckiFOImEMOkqfxQSAjfnEfrk=
 github.com/kava-labs/tm-db v0.4.1-stable/go.mod h1:dRComvpd8Xj0cJun86vy2bc1i5b8gm15dQlRm1+BiMs=
-github.com/kava-labs/tm-db v0.4.2-0.20200506040135-3f7b09feebcd h1:2ez2kbAN34BjuS9Op8CJ2GJo8DrpmicOiY3BY3bagKo=
-github.com/kava-labs/tm-db v0.4.2-0.20200506040135-3f7b09feebcd/go.mod h1:hV2Nix8Ndt0UMAuGceyBKxKvfuRnWQDaBAJNGDeVbBs=
 github.com/kisielk/errcheck v1.1.0/go.mod h1:EZBBE59ingxPouuu3KfxchcWSUPOHkagtvWXihfKN4Q=
 github.com/kisielk/errcheck v1.2.0/go.mod h1:/BMXB+zMLi60iA8Vv6Ksmxu/1UDYcXs4uQLJ+jE2L00=
 github.com/kisielk/gotool v1.0.0/go.mod h1:XhKaO+MFFWcvkIS/tQcRk01m1F5IRFswLeQ+oQHNcck=
