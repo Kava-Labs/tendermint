@@ -1,5 +1,5 @@
 syntax = "proto3";
-package tendermint.rpc.grpc;
+package kava.tendermint.rpc.grpc;
 option  go_package = "github.com/kava-labs/tendermint/rpc/grpc;coregrpc";
 
 import "third_party/proto/gogoproto/gogo.proto";
