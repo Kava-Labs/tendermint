@@ -44,6 +44,9 @@ install_c:
 proto-all: proto-gen proto-lint proto-check-breaking
 .PHONY: proto-all
 
+proto-all-docker: proto-gen-docker proto-lint proto-check-breaking
+.PHONY: proto-all-docker
+
 proto-gen:
 	## If you get the following error,
 	## "error while loading shared libraries: libprotobuf.so.14: cannot open shared object file: No such file or directory"
@@ -52,6 +55,11 @@ proto-gen:
 	## Note the $@ here is substituted for the %.pb.go
 	@sh scripts/protocgen.sh
 .PHONY: proto-gen
+
+proto-gen-docker:
+	@echo "Generating Protobuf files"
+	@docker run -v $(shell pwd):/workspace --workdir /workspace tendermintdev/docker-build-proto sh ./scripts/protocgen.sh
+.PHONY: proto-gen-docker
 
 proto-lint:
 	@buf check lint --error-format=json

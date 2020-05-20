@@ -15,7 +15,7 @@ require (
 	github.com/golang/protobuf v1.3.4
 	github.com/gorilla/websocket v1.4.1
 	github.com/gtank/merlin v0.1.1-0.20191105220539-8318aed1a79f
-	github.com/kava-labs/tm-db v0.4.1-stable
+	github.com/kava-labs/tm-db v0.4.1-kava
 	github.com/libp2p/go-buffer-pool v0.0.2
 	github.com/magiconair/properties v1.8.1
 	github.com/pkg/errors v0.9.1
@@ -32,4 +32,4 @@ require (
 	google.golang.org/grpc v1.29.1
 )
 
-replace github.com/tendermint/tm-db => github.com/kava-labs/tm-db v0.4.1-stable
+replace github.com/tendermint/tm-db => github.com/kava-labs/tm-db v0.4.1-kava

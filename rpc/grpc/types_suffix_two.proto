@@ -3,7 +3,7 @@ package tendermint.rpc.grpc;
 option  go_package = "github.com/kava-labs/tendermint/rpc/grpc;coregrpc";
 
 import "third_party/proto/gogoproto/gogo.proto";
-import "abci/types/types.proto";
+import "abci/types/types_suffix_one.proto";
 
 option (gogoproto.marshaler_all)        = true;
 option (gogoproto.unmarshaler_all)      = true;
