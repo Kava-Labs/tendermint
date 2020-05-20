@@ -28,8 +28,8 @@ require (
 	github.com/stretchr/testify v1.5.1
 	github.com/tendermint/go-amino v0.14.1
 	golang.org/x/crypto v0.0.0-20191206172530-e9b2fee46413
-	golang.org/x/net v0.0.0-20200324143707-d3edc9973b7e
-	google.golang.org/grpc v1.29.1
+	golang.org/x/net v0.0.0-20190813141303-74dc4d7220e7
+	google.golang.org/grpc v1.27.1
 )
 
 replace github.com/tendermint/tm-db => github.com/kava-labs/tm-db v0.4.1-stable
