@@ -8,9 +8,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/tendermint/tendermint/config"
-	cmn "github.com/tendermint/tendermint/libs/common"
-	"github.com/tendermint/tendermint/p2p/conn"
+	"github.com/kava-labs/tendermint/config"
+	cmn "github.com/kava-labs/tendermint/libs/common"
+	"github.com/kava-labs/tendermint/p2p/conn"
 )
 
 const (

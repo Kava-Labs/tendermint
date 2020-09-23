@@ -6,13 +6,13 @@ import (
 	"reflect"
 	"time"
 
-	amino "github.com/tendermint/go-amino"
-	"github.com/tendermint/tendermint/behaviour"
-	"github.com/tendermint/tendermint/libs/log"
-	"github.com/tendermint/tendermint/p2p"
-	sm "github.com/tendermint/tendermint/state"
-	"github.com/tendermint/tendermint/store"
-	"github.com/tendermint/tendermint/types"
+	amino "github.com/kava-labs/go-amino"
+	"github.com/kava-labs/tendermint/behaviour"
+	"github.com/kava-labs/tendermint/libs/log"
+	"github.com/kava-labs/tendermint/p2p"
+	sm "github.com/kava-labs/tendermint/state"
+	"github.com/kava-labs/tendermint/store"
+	"github.com/kava-labs/tendermint/types"
 )
 
 const (

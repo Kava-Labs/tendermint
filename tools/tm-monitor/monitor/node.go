@@ -7,13 +7,13 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/tendermint/tendermint/crypto"
-	"github.com/tendermint/tendermint/libs/events"
-	"github.com/tendermint/tendermint/libs/log"
-	ctypes "github.com/tendermint/tendermint/rpc/core/types"
-	rpc_client "github.com/tendermint/tendermint/rpc/lib/client"
-	em "github.com/tendermint/tendermint/tools/tm-monitor/eventmeter"
-	tmtypes "github.com/tendermint/tendermint/types"
+	"github.com/kava-labs/tendermint/crypto"
+	"github.com/kava-labs/tendermint/libs/events"
+	"github.com/kava-labs/tendermint/libs/log"
+	ctypes "github.com/kava-labs/tendermint/rpc/core/types"
+	rpc_client "github.com/kava-labs/tendermint/rpc/lib/client"
+	em "github.com/kava-labs/tendermint/tools/tm-monitor/eventmeter"
+	tmtypes "github.com/kava-labs/tendermint/types"
 )
 
 const maxRestarts = 25

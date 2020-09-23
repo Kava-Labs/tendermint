@@ -5,9 +5,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/tendermint/tendermint/crypto"
-	"github.com/tendermint/tendermint/types"
-	dbm "github.com/tendermint/tm-db"
+	"github.com/kava-labs/tendermint/crypto"
+	"github.com/kava-labs/tendermint/types"
+	dbm "github.com/kava-labs/tm-db"
 )
 
 //-----------------------------------------------------

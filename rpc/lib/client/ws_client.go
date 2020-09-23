@@ -13,9 +13,9 @@ import (
 	"github.com/pkg/errors"
 	metrics "github.com/rcrowley/go-metrics"
 
-	amino "github.com/tendermint/go-amino"
-	cmn "github.com/tendermint/tendermint/libs/common"
-	types "github.com/tendermint/tendermint/rpc/lib/types"
+	amino "github.com/kava-labs/go-amino"
+	cmn "github.com/kava-labs/tendermint/libs/common"
+	types "github.com/kava-labs/tendermint/rpc/lib/types"
 )
 
 const (

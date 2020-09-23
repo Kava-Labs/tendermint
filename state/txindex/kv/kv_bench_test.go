@@ -6,11 +6,11 @@ import (
 	"io/ioutil"
 	"testing"
 
-	abci "github.com/tendermint/tendermint/abci/types"
-	cmn "github.com/tendermint/tendermint/libs/common"
-	"github.com/tendermint/tendermint/libs/pubsub/query"
-	"github.com/tendermint/tendermint/types"
-	dbm "github.com/tendermint/tm-db"
+	abci "github.com/kava-labs/tendermint/abci/types"
+	cmn "github.com/kava-labs/tendermint/libs/common"
+	"github.com/kava-labs/tendermint/libs/pubsub/query"
+	"github.com/kava-labs/tendermint/types"
+	dbm "github.com/kava-labs/tm-db"
 )
 
 func BenchmarkTxSearch(b *testing.B) {

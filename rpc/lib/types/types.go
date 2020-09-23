@@ -10,7 +10,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	amino "github.com/tendermint/go-amino"
+	amino "github.com/kava-labs/go-amino"
 )
 
 // a wrapper to emulate a sum type: jsonrpcid = string | int

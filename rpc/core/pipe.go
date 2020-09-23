@@ -4,17 +4,17 @@ import (
 	"fmt"
 	"time"
 
-	cfg "github.com/tendermint/tendermint/config"
-	"github.com/tendermint/tendermint/consensus"
-	"github.com/tendermint/tendermint/crypto"
-	"github.com/tendermint/tendermint/libs/log"
-	mempl "github.com/tendermint/tendermint/mempool"
-	"github.com/tendermint/tendermint/p2p"
-	"github.com/tendermint/tendermint/proxy"
-	sm "github.com/tendermint/tendermint/state"
-	"github.com/tendermint/tendermint/state/txindex"
-	"github.com/tendermint/tendermint/types"
-	dbm "github.com/tendermint/tm-db"
+	cfg "github.com/kava-labs/tendermint/config"
+	"github.com/kava-labs/tendermint/consensus"
+	"github.com/kava-labs/tendermint/crypto"
+	"github.com/kava-labs/tendermint/libs/log"
+	mempl "github.com/kava-labs/tendermint/mempool"
+	"github.com/kava-labs/tendermint/p2p"
+	"github.com/kava-labs/tendermint/proxy"
+	sm "github.com/kava-labs/tendermint/state"
+	"github.com/kava-labs/tendermint/state/txindex"
+	"github.com/kava-labs/tendermint/types"
+	dbm "github.com/kava-labs/tm-db"
 )
 
 const (

@@ -6,9 +6,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	dbm "github.com/tendermint/tm-db"
+	dbm "github.com/kava-labs/tm-db"
 
-	"github.com/tendermint/tendermint/types"
+	"github.com/kava-labs/tendermint/types"
 )
 
 /*

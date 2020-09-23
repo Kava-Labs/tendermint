@@ -8,13 +8,13 @@ import (
 
 	"github.com/pkg/errors"
 
-	amino "github.com/tendermint/go-amino"
+	amino "github.com/kava-labs/go-amino"
 
-	cmn "github.com/tendermint/tendermint/libs/common"
-	tmpubsub "github.com/tendermint/tendermint/libs/pubsub"
-	ctypes "github.com/tendermint/tendermint/rpc/core/types"
-	rpcclient "github.com/tendermint/tendermint/rpc/lib/client"
-	"github.com/tendermint/tendermint/types"
+	cmn "github.com/kava-labs/tendermint/libs/common"
+	tmpubsub "github.com/kava-labs/tendermint/libs/pubsub"
+	ctypes "github.com/kava-labs/tendermint/rpc/core/types"
+	rpcclient "github.com/kava-labs/tendermint/rpc/lib/client"
+	"github.com/kava-labs/tendermint/types"
 )
 
 /*

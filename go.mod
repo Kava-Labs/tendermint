@@ -1,4 +1,4 @@
-module github.com/tendermint/tendermint
+module github.com/kava-labs/tendermint
 
 go 1.12
 
@@ -17,6 +17,8 @@ require (
 	github.com/gorilla/websocket v1.2.0
 	github.com/hashicorp/hcl v1.0.0 // indirect
 	github.com/inconshreveable/mousetrap v1.0.0 // indirect
+	github.com/kava-labs/go-amino v0.14.1-kava
+	github.com/kava-labs/tm-db v0.1.1-kava
 	github.com/kr/logfmt v0.0.0-20140226030751-b84e30acd515 // indirect
 	github.com/libp2p/go-buffer-pool v0.0.1
 	github.com/magiconair/properties v1.8.0
@@ -38,8 +40,6 @@ require (
 	github.com/spf13/pflag v1.0.3 // indirect
 	github.com/spf13/viper v1.0.0
 	github.com/stretchr/testify v1.3.0
-	github.com/tendermint/go-amino v0.14.1
-	github.com/tendermint/tm-db v0.1.1
 	golang.org/x/crypto v0.0.0-20190308221718-c2843e01d9a2
 	golang.org/x/net v0.0.0-20190628185345-da137c7871d7
 	google.golang.org/grpc v1.22.0

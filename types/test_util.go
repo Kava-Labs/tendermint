@@ -1,7 +1,7 @@
 package types
 
 import (
-	tmtime "github.com/tendermint/tendermint/types/time"
+	tmtime "github.com/kava-labs/tendermint/types/time"
 )
 
 func MakeCommit(blockID BlockID, height int64, round int,

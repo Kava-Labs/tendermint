@@ -1,8 +1,8 @@
 package v0
 
 import (
-	amino "github.com/tendermint/go-amino"
-	"github.com/tendermint/tendermint/types"
+	amino "github.com/kava-labs/go-amino"
+	"github.com/kava-labs/tendermint/types"
 )
 
 var cdc = amino.NewCodec()

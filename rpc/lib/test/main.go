@@ -5,12 +5,12 @@ import (
 	"net/http"
 	"os"
 
-	amino "github.com/tendermint/go-amino"
+	amino "github.com/kava-labs/go-amino"
 
-	cmn "github.com/tendermint/tendermint/libs/common"
-	"github.com/tendermint/tendermint/libs/log"
-	rpcserver "github.com/tendermint/tendermint/rpc/lib/server"
-	rpctypes "github.com/tendermint/tendermint/rpc/lib/types"
+	cmn "github.com/kava-labs/tendermint/libs/common"
+	"github.com/kava-labs/tendermint/libs/log"
+	rpcserver "github.com/kava-labs/tendermint/rpc/lib/server"
+	rpctypes "github.com/kava-labs/tendermint/rpc/lib/types"
 )
 
 var routes = map[string]*rpcserver.RPCFunc{

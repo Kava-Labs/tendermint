@@ -15,17 +15,17 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	amino "github.com/tendermint/go-amino"
+	amino "github.com/kava-labs/go-amino"
 
-	"github.com/tendermint/tendermint/abci/example/counter"
-	"github.com/tendermint/tendermint/abci/example/kvstore"
-	abciserver "github.com/tendermint/tendermint/abci/server"
-	abci "github.com/tendermint/tendermint/abci/types"
-	cfg "github.com/tendermint/tendermint/config"
-	cmn "github.com/tendermint/tendermint/libs/common"
-	"github.com/tendermint/tendermint/libs/log"
-	"github.com/tendermint/tendermint/proxy"
-	"github.com/tendermint/tendermint/types"
+	"github.com/kava-labs/tendermint/abci/example/counter"
+	"github.com/kava-labs/tendermint/abci/example/kvstore"
+	abciserver "github.com/kava-labs/tendermint/abci/server"
+	abci "github.com/kava-labs/tendermint/abci/types"
+	cfg "github.com/kava-labs/tendermint/config"
+	cmn "github.com/kava-labs/tendermint/libs/common"
+	"github.com/kava-labs/tendermint/libs/log"
+	"github.com/kava-labs/tendermint/proxy"
+	"github.com/kava-labs/tendermint/types"
 )
 
 // A cleanupFunc cleans up any config / test files created for a particular

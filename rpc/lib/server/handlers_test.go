@@ -13,10 +13,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	amino "github.com/tendermint/go-amino"
-	"github.com/tendermint/tendermint/libs/log"
-	rs "github.com/tendermint/tendermint/rpc/lib/server"
-	types "github.com/tendermint/tendermint/rpc/lib/types"
+	amino "github.com/kava-labs/go-amino"
+	"github.com/kava-labs/tendermint/libs/log"
+	rs "github.com/kava-labs/tendermint/rpc/lib/server"
+	types "github.com/kava-labs/tendermint/rpc/lib/types"
 )
 
 //////////////////////////////////////////////////////////////////////////////

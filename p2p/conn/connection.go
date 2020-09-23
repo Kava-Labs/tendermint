@@ -15,10 +15,10 @@ import (
 
 	"github.com/pkg/errors"
 
-	amino "github.com/tendermint/go-amino"
-	cmn "github.com/tendermint/tendermint/libs/common"
-	flow "github.com/tendermint/tendermint/libs/flowrate"
-	"github.com/tendermint/tendermint/libs/log"
+	amino "github.com/kava-labs/go-amino"
+	cmn "github.com/kava-labs/tendermint/libs/common"
+	flow "github.com/kava-labs/tendermint/libs/flowrate"
+	"github.com/kava-labs/tendermint/libs/log"
 )
 
 const (
