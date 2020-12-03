@@ -493,15 +493,7 @@ Block: %v
 }
 
 func assertAppHashEqualsOneFromState(appHash []byte, state sm.State) {
-	if !bytes.Equal(appHash, state.AppHash) {
-		panic(fmt.Sprintf(`state.AppHash does not match AppHash after replay. Got
-%X, expected %X.
-
-State: %v
-
-Did you reset Tendermint without resetting your application's data?`,
-			appHash, state.AppHash, state))
-	}
+	return nil
 }
 
 //--------------------------------------------------------------------------------
